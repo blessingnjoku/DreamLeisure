@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <!-- icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+     
+    <!-- SWIPER -->
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+
+
+    <link ref="stylesheet" href="asset/CSS/swiper-bundle.min.css">
+    <!-- css -->
+     <link rel="stylesheet" href="asset/CSS/travel.css">
+    <title>Travel Guide</title>
+</header>
+<body>
+  <header class="header" id="header">
+     <nav class="nav container">
+       <a href="#" class="navLogo">Travel</a>
+       <div class="navMenu showMenu" id="navMenu">
+           <ul class="navList">
+            <li class="navItem">
+              <a href="#home" class="navLink  active-link">Home</a>
+            </li>
+            <li class="navItem">
+              <a href="#about" class="navLink">About</a>
+            </li>
+            <li class="navItem">
+              <a href="#discover" class="navLink">Discover</a>
+            </li>
+            <li class="navItem">
+              <a href="#place" class="navLink">Place</a>
+            </li>
+           </ul>
+
+           <div class="navDarkmode">
+             <!-- themchange button  -->
+             <i class="ri-moon-line change-theme" id="themeButton"></i>
+             <span class="changeTheme-name">Dark Mode</span>
+           </div>
+           <i class="ri-close-line navClose" id="navClose" ></i>
+  
+       </div>
+       <div class="navToggle" id="navToggle">
+         <i class="ri-menu-3-line"></i>
+        </div>
+     </nav>
+  </header>
+ 
+      <main class="main">
+         <!-- Home section -->
+         <section class="home " id="home">
+           <img src="asset/images/photo4.jfif" alt="" class="homeImage"/>
+           <div class="homeContainer container grid">
+             <div class="homeData">
+               <span class="homeSubtitle">Discover Beautiful places</span>
+               <h1 class="homeTitle">Explore The <br>Most <b>Beautiful<br> Resorts</b></h1>
+               <a href="#" class="button">Explore</a>
+             </div>
+             <div class="homeSocial">
+               <a href="https://www.facebook.com/" target="_blank" class="socialLink">
+                <i class="ri-facebook-box-fill"></i>
+               </a>
+               <a href="https://www.twitter.com/" target="_blank" class="socialLink">
+                <i class="ri-twitter-fill"></i>
+              </a>
+              <a href="https://www.instagram.com/" target="_blank" class="socialLink">
+                <i class="ri-instagram-fill"></i>
+              </a>
+             </div>
+
+             <div class="homeInfo">
+                <div>
+                   <span class="homeInforTitle">5 best places to visit in Lagos</span>
+                   <a href="#" class="button button--flex button--link homeInfoBtn">
+                     More <i class="ri-arrow-right-line"></i>
+                   </a>
+                </div>
+                <div class="homeInfooverlay">
+                   <img src="asset/images/photo3.jfif" alt="" class="homeInforimg"/>
+                </div>
+                 
+             </div>
+           </div>
+        </section>
+
+        <!-- about section -->
+        <section class="about section" id="about">
+            <div class="aboutContainer container grid">
+               <div class="aboutData">
+                 <h2 class="sectionTitle aboutTitle">More Informstion <br>About The Best Resorts</h2>
+                  <p class="aboutDescription">Your can find the most beautiful and peasant places at affordable prices whit soecial discount, you choose the place, we wil guide you all the way</p>
+                  <a href="#" class="button">Book a place</a>
+               </div>
+               <div class="aboutImg">
+                 <div class="aboutImgoverlay">
+                   <img src="asset/images/photo4.jfif" alt="" class="aboutImageOne">
+                 </div>
+
+                 <div class="aboutImgovaerlay">
+                  <img src="asset/images/photo9.jfif" alt="" class="aboutImageTwo">
+                </div>
+               </div>
+            </div>
+        </section>
+
+         <!-- discover section -->
+         <section class="discover section" id="discover">
+           <h2 class="sectionTitle">Discover the most <br>attractive places</h2>
+
+           <div class="discoverContainer container swiper">
+             <div class="swiper-wrapper" > 
+
+               <!-- discover1 -->
+               <div class="discoverCard swiper-slide"> 
+                 <img src="asset/images/photo9.jfif" alt="" class="discoverimg">
+                 <div class="discoverData">
+                   <h2 class="discoverTitle">Omu Resort</h2>
+                   <span class="discoverDescription">24hours Tours Available</span>
+                 </div>
+               </div> 
+
+                <!-- discover2 -->
+                <div class="discoverCard swiper-slide">
+                  <img src="asset/images/photo.jfif" alt="" class="discoverimg">
+                  <div class="discoverData">
+                    <h2 class="discoverTitle">Lacapagne tropicana</h2>
+                    <span class="discoverDescription">24hours Tours Available</span>
+                  </div>
+                </div>
+
+                 <!-- discover3 -->
+               <div class="discoverCard swiper-slide">
+                <img src="asset/images/photo4.jfif" alt="" class="discoverimg">
+                <div class="discoverData">
+                  <h2 class="discoverTitle">Obudu Catle Ranch</h2>
+                  <span class="discoverDescription">24hours Tours Available</span>
+                </div>
+              </div>
+
+                <!-- discover4 -->
+                <div class="discoverCard swiper-slide">
+                  <img src="asset/images/photo11.jfif" alt="" class="discoverimg">
+                  <div class="discoverData">
+                    <h2 class="discoverTitle">Obudu Catle Ranch</h2>
+                    <span class="discoverDescription">24hours Tours Available</span>
+                  </div>
+                </div>
+             </div>
+           </div>
+        </section>
+
+         <!-- Expeirence section -->
+         <section class="place section" id="place">
+           <h2 class="sectionTitle ">With Our Experience<br> We Will Serve You</b></h2>
+           <div class="expirenceContainer grid">
+             <div class="expirenceContent grid">
+               <div class="expirenceData">
+                 <h2 class="expirenceNumber">15</h2>
+                 <span class="expirenceDescription">Years<br>Experience</span>
+               </div>
+
+               <div class="expirenceData">
+                <h2 class="expirenceNumber">50</h2>
+                <span class="expirenceDescription">Complete<br>Tour</span>
+              </div>
+
+              <div class="expirenceData">
+                <h2 class="expirenceNumber">1000+</h2>
+                <span class="expirenceDescription">Tourist<br>Destination</span>
+              </div>
+
+             </div>
+             <div class="expirenceImg grid">
+               <div class="expirenceOverlay">
+               <img src="asset/images/photo5.jfif" alt=""class="expirenceImg1">
+               </div>
+
+               <div class="expirenceOverlay">
+                <img src="asset/images/photo10.jfif" alt=""class="expirenceImg2">
+                </div>
+
+                
+             </div>
+           </div>
+        </section>
+
+        <!-- video section -->
+        <section class="video section" >
+           <h2 class="sectionTitle">Video Tour</h2>
+           <div class="videoContainer container">
+             <p class="videoDescription">explore more with our video of
+                the most pleasant and beautiful 
+                places for you and your family.</p>
+
+                <div class="videoContent">
+                   <video id="video-file">
+                     <source src="asset/video/videoclips.mp4" type="video/mp4">
+
+                   </video>
+                   <button class="button button--flex video-button" id="video-button" >
+                    <i class="ri-play-line video-button-icon " id="video-button-icon"></i>
+                   </button>
+                </div>
+           </div>
+
+        </section>
+             
+
+        <!-- places section -->
+        <section class="place section" id="place">
+           <h2 class="placeTitle sectionTitle">Choose A Place</h2>
+           <div class="placeContainer container grid">
+             
+             <!-- plcaes first card -->
+             <div class="placeCard">
+               <img src="asset/images/photo.jfif" alt="" class="placeImg">  
+              
+              
+              <div class="placeContent ">
+                <span class="placeRatings" >
+                  <i class="ri-star-line place-ratings-icon"></i>
+                  <span class="placeRatingsnumber">4,8</span>
+                </span>
+
+                <div class="placeData">
+                  <h3 class="placeTitle">Oniru Beach</h3>
+                  <span class="placeSubtile">Victoria Island</span>
+                  <span class="placePrice">#2000</span>
+
+                </div>
+              </div>
+              <button class="button button--flex place-button">
+                <i class="ri-arrow-right-line"></i>
+              </button>
+           </div>
+
+            <!-- plcaes second card -->
+            <div class="placeCard">
+              <img src="asset/images/photo4.jfif" alt="" class="placeImg">  
+             
+             
+             <div class="placeContent ">
+               <span class="placeRatings" >
+                 <i class="ri-star-line place-ratings-icon"></i>
+                 <span class="placeRatingsnumber">5,0</span>
+               </span>
+
+               <div class="placeData">
+                 <h3 class="placeTitle"> Elegush beach</h3>
+                 <span class="placeSubtile">Lekki</span>
+                 <span class="placePrice">#1000</span>
+
+               </div>
+             </div>
+             <button class="button button--flex place-button">
+               <i class="ri-arrow-right-line"></i>
+             </button>
+          </div>
+
+           <!-- plcaes third card -->
+           <div class="placeCard">
+            <img src="asset/images/photo9.jfif" alt="" class="placeImg">  
+           
+           
+           <div class="placeContent ">
+             <span class="placeRatings" >
+               <i class="ri-star-line place-ratings-icon"></i>
+               <span class="placeRatingsnumber">3,5</span>
+             </span>
+
+             <div class="placeData">
+               <h3 class="placeTitle">Redline Beach</h3>
+               <span class="placeSubtile">Epe</span>
+               <span class="placePrice">#2000</span>
+
+             </div>
+           </div>
+           <button class="button button--flex place-button">
+             <i class="ri-arrow-right-line"></i>
+           </button>
+        </div>
+
+         <!-- plcaes forth card -->
+         <div class="placeCard">
+          <img src="asset/images/photo11.jfif" alt="" class="placeImg">  
+         
+         
+         <div class="placeContent ">
+           <span class="placeRatings" >
+             <i class="ri-star-line place-ratings-icon"></i>
+             <span class="placeRatingsnumber">3,0</span>
+           </span>
+
+           <div class="placeData">
+             <h3 class="placeTitle">Koramo</h3>
+             <span class="placeSubtile">Lekki</span>
+             <span class="placePrice">#500</span>
+
+           </div>
+         </div>
+         <button class="button button--flex place-button">
+           <i class="ri-arrow-right-line"></i>
+         </button>
+      </div>
+
+      
+         <!-- plcaes fifth card -->
+         <div class="placeCard">
+          <img src="asset/images/photo7.jfif" alt="" class="placeImg">  
+         
+         
+         <div class="placeContent ">
+           <span class="placeRatings" >
+             <i class="ri-star-line place-ratings-icon"></i>
+             <span class="placeRatingsnumber">3,0</span>
+           </span>
+
+           <div class="placeData">
+             <h3 class="placeTitle">Beachside</h3>
+             <span class="placeSubtile">Aja</span>
+             <span class="placePrice">#500</span>
+
+           </div>
+         </div>
+         <button class="button button--flex place-button">
+           <i class="ri-arrow-right-line"></i>
+         </button>
+        </div>
+        </div>
+        </section>
+
+        <!-- subsribe section -->
+        <section class="subcribe section">
+
+          <div class="subscribeBG">
+            <div class="subscribeContrainer container">
+              <h2 class="sectionTitle subcribeTitle">Subscribe our <br> Newsletter</h2>
+              <p class="subscribeDescription">Be the first to get  our newest update </p>
+
+              <form action="" class="subscribeForm">
+                <input type="text" placeholder="please Enter Your Email" class="subscribeInput">
+                <button class="button inputbtn">
+                 Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+
+        </section>
+
+
+        <!-- sponsor section -->
+        <section class="sponsor section">
+          <div class="sponsorContainer container grid">
+            <div class="sponsorContent">
+              <img src="asset/images/uber.png" class="sponsorImg">
+            </div>
+
+            <div class="sponsorContent">
+              <img src="asset/images/amazon.png" class="sponsorImg">
+            </div>
+
+            <div class="sponsorContent">
+              <img src="asset/images/air.png" class="sponsorImg">
+            </div>
+
+            <div class="sponsorContent">
+              <img src="asset/images/paypal.png" class="sponsorImg">
+            </div>
+
+            <div class="sponsorContent">
+              <img src="asset/images/vago.png" class="sponsorImg">
+            </div>
+          </div> 
+
+        </section>
+
+        <footer class="footer section">
+          <div class="footerContainer container grid">
+            <div class="footerContent grid">
+              <div class="footerData">
+                <h3 class="footerTitle">Travel</h3>
+                <p class="footerDescription">Have your best time through our
+                    <br> Destination, we offer you memorable
+                     <br>Expirence</p>
+                    <div>
+                      <a href="http://www.facebook.com" target="_blank" class="footerSocial">
+                        <i class="ri-facebook-box-fill"></i>
+                      </a>
+
+                      <a href="http://www.twitter.com" target="_blank" class="footerSocial">
+                        <i class="ri-twitter-fill"></i>
+                      </a>
+
+                      <a href="http://www.instagram.com" target="_blank" class="footerSocial">
+                        <i class="ri-instagram-fill"></i>
+                      </a>
+
+                      <a href="http://www.youtube.com" target="_blank" class="footerSocial">
+                        <i class="ri-youtube-fill"></i>
+                      </a>
+                    </div>
+              </div>
+              <div class="footerData">
+                   <h3 class="footerSubtitle">About</h3>
+                   <ul>
+                     <li class="footerItems">
+                       <a href="#" class="footerLink">Features</a>
+                     </li>
+
+                     <li class="footerItems">
+                      <a href="#" class="footerLink">Blog</a>
+                    </li>
+
+                    <li class="footerItems">
+                      <a href="#" class="footerLink">About us</a>
+                    </li>
+                   </ul>
+              </div>
+
+              <div class="footerData">
+                <h3 class="footerSubtitle">Company</h3>
+                <ul>
+                  <li class="footerItems">
+                    <a href="#" class="footerLink">Team</a>
+                  </li>
+
+                  <li class="footerItems">
+                   <a href="#" class="footerLink">Become a Member</a>
+                 </li>
+
+                 <li class="footerItems">
+                   <a href="#" class="footerLink">Pricing</a>
+                 </li>
+                </ul>
+           </div>
+
+           <div class="footerData">
+            <h3 class="footerSubtitle">Support </h3>
+            <ul>
+              <li class="footerItems">
+                <a href="#" class="footerLink">FAQs</a>
+              </li>
+
+              <li class="footerItems">
+               <a href="#" class="footerLink">Contact Us</a>
+             </li>
+
+             <li class="footerItems">
+               <a href="#" class="footerLink"> Support center</a>
+             </li>
+            </ul>
+       </div>
+        </div>
+        <div class="footerRights">
+          <p class="footerCopy">
+            &#169; 2021 CodeQueen. All right reserved
+          </p>
+          <div class="footerTerms">
+             <a href="#" class="footertermsLink">Terms & Agreement</a>
+             <a href="#" class="footertermsLink">Privacy Policy</a>
+
+          </div>
+        </div>
+          </div>
+        </footer>
+
+        <a href="#" class="scrollup show-scroll" id="scroll-up">
+          <i class="ri-arrow-up-line scroll-icon"></i>
+        </a>
+
+
+
+      </main>
+
+    <script src="asset/js/swiper-bundle.min.js"></script>
+    <script src="asset/js/travel.js"></script>
+</body>
+</html>
