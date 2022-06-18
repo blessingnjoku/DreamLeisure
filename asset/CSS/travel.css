@@ -23,7 +23,7 @@
  
 
      
-    --body:font-family:'Open Sans', sans-serif;
+    --body:'Open Sans', sans-serif;
     --title-font:'Montserrat', sans-serif;
     --biggest-font-size:2.5rem;
     --h1-font-size:1.5rem;
@@ -65,7 +65,7 @@
     :root{
         --biggest-font-size:4rem;
         --h1-font-size:2.25rem;
-        --h2-fontsiz:1.75rem;
+        --h2-font-size:1.75rem;
         --h3-font-size:1.25rem;
         --normal-font-size:.1rem;
         --small-font-size: .813rem;
@@ -146,7 +146,7 @@ bottom: 4rem;
 
  h1,h2,h3{
      color: var(--title-color);
-    font-weight: var(--font-semi-bold);
+     font-weight: var(--font-semi-bold);
      font-family: var(--title-font);
     
  }
@@ -258,6 +258,7 @@ input{
        box-shadow: -1px 0 4px hsla(var(--hue-color),64%, 15%, .15); 
        padding:3rem;
        transition:.4s;
+     
    } 
 }
 
